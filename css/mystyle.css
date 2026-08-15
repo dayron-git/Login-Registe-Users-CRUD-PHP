@@ -1,0 +1,154 @@
+.fa-regular::before{
+    background-color: rgba(128, 128, 128, 0.751);
+    padding: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    transform: translateY(-37px);
+    border-radius: 0 5px 5px 0;
+    transition: all 300ms ease;
+}
+
+.fa-regular:hover::before {
+    background-color: rgba(0, 0, 0, 0.742);
+    color: white;
+}
+
+.mio img {
+    width: 100%; 
+}
+.mio2 img{
+    width: 100%; 
+}
+.mimenu{
+    color: rgba(0, 0, 0, 0.584);
+    transition: all 300ms ease;
+}
+.mimenu:hover{
+    color: rgb(42, 2, 2);
+    transform: scale(1.05);  
+}
+.miinicio{
+    transition: all 300ms ease;
+}
+.miinicio:hover{
+    transform: scale(1.25);  
+  
+}
+.misesion {
+    color:  #089708;  
+    transition: all 300ms ease;
+}
+.misesion:hover{
+    color: green;
+    transform: scale(1.05); 
+}
+.micerrarsesion{
+    color:  #ae1414;  
+    transition: all 300ms ease;
+}
+.micerrarsesion:hover{
+    color: #eb0000;
+    transform: scale(1.05); 
+}
+.miimg:hover{
+    transition: all 300ms ease;
+}
+.miimg:hover{
+    transform: scale(1.1);
+}
+.imgsaludo{
+    max-width: 40%;
+    height: auto;
+    animation: pulse 2s infinite ease
+}
+.miadmin{
+    color: #000000;  
+    transition: all 300ms ease;
+}
+.miadmin:hover{
+    color: #430707;
+    transform: scale(1.05); 
+}
+.midanger{
+    color: #e31919;
+    transition: all 300ms ease;
+}
+.midanger:hover{
+    padding: 0 5px;
+    border-radius: 2px;
+    background-color: #860808;
+    color: #ffffff;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.boton1{
+    background-color: #0dcaf0;
+    padding: 8px 10px;
+    border-radius: 5px ;
+    border: none;
+    transition: all 300ms ease;
+}
+
+.boton1:hover{
+    background-color: #04778e;
+    color: white;
+}
+
+.boton2{
+    background-color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px ;
+    border: solid 1px #0dcaf0;
+    color: #0dcaf0;
+    transition: all 300ms ease;
+}
+.boton2:hover{
+    border: solid 1px #08b2d4;
+    background-color: #08b2d4;
+    color: white;
+}
+.boton2{
+    background-color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px ;
+    border: solid 1px #0dcaf0;
+    color: #0dcaf0;
+    transition: all 300ms ease;
+}
+.boton2:hover{
+    border: solid 1px #08b2d4;
+    background-color: #08b2d4;
+    color: white;
+}
+.boton3{
+    background-color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px ;
+    border: solid 1px rgb(13 110 253);
+    color: rgb(13 110 253);
+    transition: all 300ms ease;
+}
+.boton3:hover{
+    border: solid 1px #0955c6;
+    background-color: #0955c6;
+    color: white;
+}
+
+@media screen and (max-width: 768px) { 
+    .mio img {
+        height: 200px;
+        object-fit: cover; 
+    }
+    .mio2 img {
+        height: 200px;
+        object-fit: cover; 
+        object-position: 30% 50%;
+
+    }
+}
+
